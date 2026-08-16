@@ -1,0 +1,6 @@
+{
+  "name": "হিসাবপাতি - Store Hishab",
+  "description": "দোকানের সহজ হিসাব-নিকাশ: বিক্রয়, ক্রয়, বকেয়া, খরচ, ওয়েস্টেজ, স্টক এবং রিপোর্ট।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
