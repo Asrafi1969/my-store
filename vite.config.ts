@@ -3,9 +3,9 @@ import react from '@vitejs/plugin-react';
 import path from 'path';
 import {defineConfig} from 'vite';
 
-export default defineConfig(() => {
+export default defineConfig(({ mode }) => {
   return {
-    base: './',
+    base: process.env.GITHUB_PAGES === 'true' ? '/my-store/' : './',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
